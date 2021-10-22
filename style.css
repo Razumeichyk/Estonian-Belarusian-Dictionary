@@ -1,0 +1,13 @@
+body {
+    font-size: 20px;
+}
+
+.header {
+    width: 50%;
+    margin: 40px auto 0px;
+    color: white;
+    background: #483D8B;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px 8px 0px 0px;
+}
