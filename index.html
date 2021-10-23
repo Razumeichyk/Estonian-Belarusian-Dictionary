@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Estonian-Belarusian Dictionary</title>
+    <title>Эстонска-беларускі слоўнік</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="header">
         <h1>Estonian-Belarusian Dictionary</h1>
     </div>
+
+    <div class="wrapper">
+        <div class="words">
+            <input type="text" id="search" placeholder="search ...">
+            <button onclick="search()">Search</button>
+
+            <ul id="word_list"></ul>
+        </div>
+
+        <div class="word">
+            <h3 id="word_text"></h3>
+            <p id="translation"></p>
+
+            <hr>
+
+            <h3>Related words:</h3>
+            <li id="related"></li>
+        </div>
+
+    </div><!--/wrapper ends here-->
 </body>
 </html>
+<script src="main.js"></script>
